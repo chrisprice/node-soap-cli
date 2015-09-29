@@ -1,0 +1,30 @@
+{
+  "name": "soap-cli",
+  "version": "0.0.0",
+  "description": "A command line client for SOAP endpoints",
+  "preferGlobal": true,
+  "bin": {
+    "soap-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisprice/node-soap-cli.git"
+  },
+  "keywords": [
+    "soap",
+    "cli"
+  ],
+  "author": "Chris Price",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisprice/node-soap-cli/issues"
+  },
+  "homepage": "https://github.com/chrisprice/node-soap-cli#readme",
+  "dependencies": {
+    "concat-stream": "^1.5.0",
+    "soap": "^0.9.4"
+  }
+}
