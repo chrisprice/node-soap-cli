@@ -42,7 +42,7 @@ function handleResponse(e, result) {
     if (e) {
       error(e);
     }
-    console.log(result);
+    console.log(JSON.stringify(result, null, 1));
 }
 
 function error(e) {
